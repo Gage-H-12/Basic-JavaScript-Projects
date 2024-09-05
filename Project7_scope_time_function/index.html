@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Basic HTML Template</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- used to call get_Data() -->
+    <p id="Greeting" onclick="get_Data()">Guess What?</p>
+
+    <!-- used to call get_Replay() -->
+    <p>Using the input box below, pick a number and click the submit button.</p>
+    <input type="number" value="0" id="userInput" />
+    <button type="button" onclick="get_Replay()">Submit</button>
+    <p id="feedback"></p>
+
+    <!-- calling the Time_function() -->
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">Click here to get the time</button>
+  </body>
+</html>
